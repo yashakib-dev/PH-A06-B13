@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
       <div className=" hero-container container md:w-full w-[90%] mx-auto mt-16 min-h-160 md:flex justify-between items-center ">
-        <div className=" md:w-200 w-[95%] space-y-7 mb-4">
+        <div className=" md:w-230 w-[90%] mx-auto space-y-7 mb-4">
           <span className="flex items-center gap-1 bg-[#E1E7FF] rounded-full px-4 py-1 w-fit">
             <img src={circleImg} alt="" />
             <h3 className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
@@ -36,7 +36,7 @@ const Hero = () => {
 
 
         <div>
-            <img className="md:w-140 w-80" src={heroImg} alt="" />
+            <img className="md:w-140 w-80 mx-auto" src={heroImg} alt="" />
         </div>
 
       </div>
