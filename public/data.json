@@ -1,0 +1,98 @@
+
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Builder",
+    "description": "Create professional resumes quickly with beginner-friendly tools.",
+    "price": 0,
+    "period": "One-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "10+ templates",
+      "Basic ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "https://i.ibb.co.com/RkCw8YHv/writing-2327400-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Toolkit",
+    "description": "Advanced resume building with premium templates and optimization.",
+    "price": 9.99,
+    "period": "Mo",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "Advanced ATS optimization",
+      "Custom sections",
+      "Export to PDF & DOCX"
+    ],
+    "icon": "https://i.ibb.co.com/jdnM3jb/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Career Growth Pack",
+    "description": "All-in-one toolkit for job seekers to grow their career.",
+    "price": 49.99,
+    "period": "Yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Resume builder",
+      "Cover letter generator",
+      "LinkedIn optimization",
+      "Interview tips"
+    ],
+    "icon": "https://i.ibb.co.com/39zPytTY/camera.png"
+  },
+  {
+    "id": 4,
+    "name": "Portfolio Builder",
+    "description": "Build stunning developer portfolios with ease.",
+    "price": 5.99,
+    "period": "Mo",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Drag & drop builder",
+      "Responsive design",
+      "Custom domain support",
+      "SEO optimization"
+    ],
+    "icon": "https://i.ibb.co.com/rK3b10Bn/portfolio.png"
+  },
+  {
+    "id": 5,
+    "name": "Freelancer Starter Kit",
+    "description": "Everything you need to start freelancing online.",
+    "price": 19.99,
+    "period": "One-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Proposal templates",
+      "Client management",
+      "Invoice generator",
+      "Freelance guides"
+    ],
+    "icon": "https://i.ibb.co.com/4ZCqxBt5/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "AI Resume Assistant",
+    "description": "Generate optimized resumes using AI-powered suggestions.",
+    "price": 14.99,
+    "period": "Mo",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "AI content suggestions",
+      "Keyword optimization",
+      "Real-time feedback",
+      "Export to multiple formats"
+    ],
+    "icon": "https://i.ibb.co.com/xKFXynHW/operation.png"
+  }
+]

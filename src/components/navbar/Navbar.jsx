@@ -1,9 +1,9 @@
 import React from 'react';
 import { FiShoppingCart } from 'react-icons/fi';
 
-const Navbar = () => {
+const Navbar = ({buyNow}) => {
     return (
-<div className='shadow-md'>
+<div className='shadow-md bg-base-100 sticky top-0 z-50 '>
     <div className="flex container items-center mx-auto py-6">
         <div className="navbar-start flex-1">
             <div className="dropdown">
@@ -29,11 +29,17 @@ const Navbar = () => {
                     <li><a href="">FAQ</a></li>
                 </ul>
         </div>
-                <div className='flex-1 flex justify-end gap-6 items-center'>
-                    <FiShoppingCart />
-                    <a className='text-[#101727] font-semibold' href="">Login</a>
-                    <button className='btn rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-semibold text-[#FFFFFF]'>Get Started</button>
-                </div>
+            <div className='flex-1 flex justify-end gap-4 items-center'>
+                <div className="relative">
+                    <FiShoppingCart className="text-2xl cursor-pointer" />
+
+                    <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs px-1.5 py-0.5 rounded-full">
+                     {buyNow.length}
+                    </span>
+                 </div>
+                    <a className='text-[#101727] pr-3 font-semibold' href="">Login</a>
+                    <button className='btn rounded-full hidden md:block bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-semibold text-[#FFFFFF]'>Get Started</button>
+            </div>
     </div>
 </div>
     );
