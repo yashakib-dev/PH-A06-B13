@@ -4,11 +4,11 @@ const Cards = ({toolsData,buyNow,setBuyNow}) => {
     return (
         <>
 
-            <div className="text-center space-y-5 container md:w-full w-[90%] mx-auto justify-items-center mt-15 grid lg:grid-cols-3 md:grid-cols-2 gap-8 grid-cols-1 ">
+            <div className=" space-y-5 container md:w-full w-[90%] mx-auto justify-items-center mt-15 grid lg:grid-cols-3 md:grid-cols-2 gap-8 grid-cols-1 ">
             {toolsData.map((tool) => {
                     const isSelected = buyNow.some(b => b.id === tool.id);
                 return(
-                     <div key={tool.id} className="card w-96 bg-base-100 rounded-2xl shadow-sm">
+                     <div key={tool.id} className="card w-90 bg-base-100 rounded-2xl shadow-sm">
                  <div className="card-body border  border-gray-300 rounded-2xl ">
 
             <div className="flex  justify-between">
@@ -16,7 +16,7 @@ const Cards = ({toolsData,buyNow,setBuyNow}) => {
                  <span className={`badge badge-soft badge-md ${tool.tag === "new" ?  "badge-success": tool.tag === "popular"?"badge-primary":"badge-warning"}`}>{tool.tag.toUpperCase()}</span>
             </div>
          
-          <div className="text-start space-y-3">
+          <div className=" space-y-3">
             <h2 className="text-3xl font-bold">{tool.name}</h2>
             <p className="text-[#627382]">{tool.description}</p>
             <span className="text-xl font-bold">${tool.price}/<span className='text-sm font-medium text-[#627382]'>{tool.period}</span></span>
