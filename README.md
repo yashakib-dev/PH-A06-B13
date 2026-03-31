@@ -1,16 +1,35 @@
-# React + Vite
+# Project Name: A-6 Digital Tools Buying Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# A little Description
+## DigiTools is a modern digital tools marketplace UI built for creators, professionals, and businesses.  
+## It provides a clean and interactive interface where users can explore tools, view pricing, and purchase items easily with a smooth UX experience.
 
-Currently, two official plugins are available:
+## Technologies Used
+- React.js
+- Tailwind CSS
+- DaisyUI
+- React Toastify
+- JavaScript (ES6+)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+### 1. Smart Cart System
+Users can add tools to their cart with instant feedback using toast notifications.  
+Already purchased items are disabled to prevent duplicate selection.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+### 2. Dynamic Product Cards
+Each tool is displayed in a responsive card with:
+- Name & description  
+- Pricing model (monthly / yearly / one-time)  
+- Feature highlights  
+- Tag system (New, Popular, Best Seller)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+### 3.Fully Responsive UI
+The entire interface is optimized for:
+- Mobile devices  
+- iPad/tablets 
+- Desktop screens 
+
+Ensuring smooth experience across all devices.
