@@ -1,8 +1,7 @@
 # Project Name: A-6 Digital Tools Buying Website
 
 # A little Description
-## DigiTools is a modern digital tools marketplace UI built for creators, professionals, and businesses.  
-## It provides a clean and interactive interface where users can explore tools, view pricing, and purchase items easily with a smooth UX experience.
+### DigiTools is a modern digital tools marketplace UI built for creators, professionals, and businesses. It provides a clean and interactive interface where users can explore tools, view pricing, and purchase items easily with a smooth UX experience.
 
 ## Technologies Used
 - React.js
