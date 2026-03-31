@@ -48,7 +48,7 @@ const Footer = () => {
     </div>
   </nav>
  
-            </div>
+          </div>
   
    <div className="border-t border-white/25 my-6 "></div>
 
