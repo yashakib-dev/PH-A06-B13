@@ -82,10 +82,11 @@ const Cards = ({toolsData,buyNow,setBuyNow}) => {
                 setBuyNow([...buyNow, tool]);
                 
             }}
-            disabled={isSelected}
+            
             className="btn bg-linear-to-r from-[#4F39F6] rounded-full h-12 to-[#9514FA] text-[white] btn-block">
             
-            {isSelected ? "Purchased" : "Buy Now"}
+            {isSelected ? "✅Added to cart"  : "Buy Now"}
+             
            
             </button>
           </div>

@@ -28,7 +28,7 @@ const Cart = ({buyNow,setBuyNow}) => {
           
         </div> 
       ) : ( buyNow.map((tool) => {
-                
+               
           return (
             <div key={tool.id} className="mb-4 shadow-sm rounded-2xl bg-base-200">
             
@@ -66,8 +66,16 @@ const Cart = ({buyNow,setBuyNow}) => {
         </div>
         
         <button
-        onClick={()=>setBuyNow([])}
+        disabled={buyNow.length === 0}
+        onClick={()=>{
+          setBuyNow([])
+          toast.success(`Proceed to Checkout`);
+        }
+        
+      }
+        
         className='btn mt-5 w-full h-12 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-[white]'>Proceed to Checkout</button>
+        
             </div>
         </>
     );
